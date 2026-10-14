@@ -1,0 +1,16 @@
+# Minimal Doxygen configuration for the Idea Lab experiment.
+PROJECT_NAME           = "Idea Lab - Doxygen Experiment"
+PROJECT_BRIEF          = "Documentation of a simple C program"
+OUTPUT_DIRECTORY       = docs
+INPUT                  = main.c
+FILE_PATTERNS          = *.c *.h
+RECURSIVE              = NO
+EXTRACT_ALL             = YES
+GENERATE_HTML           = YES
+HTML_OUTPUT             = html
+GENERATE_LATEX          = NO
+HAVE_DOT                = YES
+CALL_GRAPH              = YES
+CALLER_GRAPH            = YES
+QUIET                  = NO
+WARNINGS               = YES
